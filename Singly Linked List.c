@@ -148,5 +148,4 @@ void deleteNodeAtPosition(int position)
 	temp->next			= deleteNodePtr->next;
 	free(deleteNodePtr);
 	deleteNodePtr = NULL;
-	return;
 }
